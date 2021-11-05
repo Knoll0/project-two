@@ -9,7 +9,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 html{
-  background: #EEE;
+  background: #DDD;
   color: #222;
   font-size: 18px;
   line-height: 24px;
@@ -31,8 +31,13 @@ h3 {
   line-height: 36px;
   padding-left: 4px;
 }
+#content img {
+  height: 400px;
+  width: 300px;
+}
 #resume ul,
-#footer ul {
+#footer ul,
+#hobbies ul {
   display:list-item;
   list-style: square outside;
   padding-left: 22.5px;
