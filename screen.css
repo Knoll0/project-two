@@ -56,10 +56,7 @@ section {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-section h2,
-footer h2 {
-  text-decoration: underline;
-}
+
 
 #footer a {
   text-decoration: none;
