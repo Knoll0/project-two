@@ -43,7 +43,7 @@ h3 {
 }
 #resume ul,
 #footer ul,
-#hobbies ul {
+#hobbies ul ul{
   display:list-item;
   list-style: square outside;
   padding-left: 22.5px;
