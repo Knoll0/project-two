@@ -85,3 +85,17 @@ section {
   position: absolute;
   left: -20000px;
 }
+
+@media screen and (min-width: 1000px) {
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+#navigation a:hover,
+#navigation a:active,
+#navigation a:focus {
+  background-color: #444;
+}
