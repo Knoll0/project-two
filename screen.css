@@ -12,14 +12,22 @@ https://www.modularscale.com/?18&px&1.5
 Ratio 2:3 or 1.5
 */
 
+/*
+To do:
+---------
+change online media to something friendler
+
+*/
+
 /* Begin site styles below */
 
-html{
+html {
   background: #DDD;
   color: #222;
   font-size: 18px;
   line-height: 24px;
   font-family: Georgia, "Times New Roman", Time, Roman, serif;
+  padding: 15px;
 }
 
 h1 {
