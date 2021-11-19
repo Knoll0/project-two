@@ -24,25 +24,25 @@ change online media to something friendler
 html {
   background: #DDD;
   color: #222;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.3333333333em; /* 24/18 = 1.3333333333 */
   font-family: Georgia, "Times New Roman", Time, Roman, serif;
   padding: 15px;
 }
 
 h1 {
-  font-size: 60.75px;
-  line-height: 72px;
+  font-size: 3.375em; /* 60.75 / 18 = 3.375 */
+  line-height: 1.185185185em; /* 72 / 60.75 = 1.185185185 */
   padding-left: 4px;
 }
 h2 {
-  font-size: 40.5px;
-  line-height: 48px;
+  font-size: 2.25em; /* 40.5 / 18 = 2.25 */
+  line-height: 1.185185185em; /* 48 / 40.5 = 1.185185185 */
   padding-left: 4px;
 }
 h3 {
-  font-size: 27px;
-  line-height: 36px;
+  font-size: 1.5em; /* 27 / 18 = 1.5 */
+  line-height: 1.333333333em; /* 36 / 27 = 1.333333333 */
   padding-left: 4px;
 }
 #content img {
