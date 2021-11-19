@@ -51,13 +51,9 @@ h3 {
 }
 #resume ul,
 #footer ul,
-#hobbies ul ul{
-  display:list-item;
-  list-style: square outside;
+#hobbies ul ul {
+  list-style: square inside;
   padding-left: 22.5px;
-}
-#resume ol {
-  display: none;
 }
 
 section {
