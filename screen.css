@@ -81,7 +81,7 @@ section {
 /*
   Removed Elements
 */
-#content-resume h1{
+#content-resume h1 {
   position: absolute;
   left: -20000px;
 }
