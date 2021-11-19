@@ -26,24 +26,24 @@ html {
   color: #222;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.3333333333em; /* 24/18 = 1.3333333333 */
-  font-family: Georgia, "Times New Roman", Time, Roman, serif;
-  padding: 15px;
+  font-family: Georgia, "Times New Roman", Times, Roman, serif;
+  padding: 0.833333333em; /* 15 / 18 = 0.833333333 */
 }
 
 h1 {
   font-size: 3.375em; /* 60.75 / 18 = 3.375 */
   line-height: 1.185185185em; /* 72 / 60.75 = 1.185185185 */
-  padding-left: 4px;
+  padding-left: 0.065843621em; /* 4 / 60.75 = 0.065843621 */
 }
 h2 {
   font-size: 2.25em; /* 40.5 / 18 = 2.25 */
   line-height: 1.185185185em; /* 48 / 40.5 = 1.185185185 */
-  padding-left: 4px;
+  padding-left: 0.098765432em; /* 4 / 40.5 = 0.098765432 */
 }
 h3 {
   font-size: 1.5em; /* 27 / 18 = 1.5 */
   line-height: 1.333333333em; /* 36 / 27 = 1.333333333 */
-  padding-left: 4px;
+  padding-left: 0.148148148em; /* 4 / 27 = 0.148148148 */
 }
 #content img {
   display: block;
@@ -53,12 +53,12 @@ h3 {
 #footer ul,
 #hobbies ul ul {
   list-style: square inside;
-  padding-left: 22.5px;
+  padding-left: 1.25em; /* 22.5 / 18 = 1.25 */
 }
 
 section {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 0.666666667em; /* 12 / 18 = 0.666666667 */
+  padding-bottom: 0.666666667em; /* 12 / 18 = 0.666666667 */
 }
 
 
@@ -74,7 +74,7 @@ section {
   color: #CCC;
   display: block;
   line-height: 0;
-  padding: 24px;
+  padding: 1.333333333em; /* 24 / 18 = 1.333333333 */
   text-decoration: none;
 }
 
@@ -83,14 +83,15 @@ section {
 */
 #content-resume h1 {
   position: absolute;
-  left: -20000px;
+  left: -1111.111111111; /* -20000 / 18 = -1111.111111111 */
 }
 
-@media screen and (min-width: 1000px) {
+/* 1000 / 16 = 62.5 */
+@media screen and (min-width: 62.5em) {
   .main-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 1.111111111em; /* 20 / 18 = 1.111111111 */
   }
 }
 
